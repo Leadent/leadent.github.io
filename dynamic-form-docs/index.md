@@ -444,6 +444,12 @@ The placeholder text to display within the date field prior to the user entering
 ##### placeholderTimeText (optional)
 The placeholder text to display within the time field prior to the user entering any text
 
+##### minDate (optional)
+Specified in format YYYY-MM-DD the earliest date that can be selected
+
+##### maxDate (optional)
+Specified in format YYYY-MM-DD the latest date that can be selected
+
 #### JSON
 
 ```
@@ -453,7 +459,9 @@ The placeholder text to display within the time field prior to the user entering
   "label": "Data e ora proprietà",
   "mandatory": false,
   "placeholderDateText": "Seleziona una data",
-  "placeholderTimeText": "Clicca per selezionare"
+  "placeholderTimeText": "Clicca per selezionare",
+  "minDate": "2019-01-13",
+  "maxDate": "2019-09-23"
 }
 ```
 
@@ -483,6 +491,12 @@ The Date input has the following additional configuration options available:
 ##### placeholderDateText (optional)
 The placeholder text to display within the field prior to the user entering any text
 
+##### minDate (optional)
+Specified in format YYYY-MM-DD the earliest date that can be selected
+
+##### maxDate (optional)
+Specified in format YYYY-MM-DD the latest date that can be selected
+
 #### JSON
 
 ```
@@ -491,7 +505,9 @@ The placeholder text to display within the field prior to the user entering any 
   "id": "QD1",
   "label": "Data proprietà",
   "mandatory": false,
-  "placeholderDateText": "Seleziona una data"
+  "placeholderDateText": "Seleziona una data",
+  "minDate": "2019-01-13",
+  "maxDate": "2019-09-23"
 }
 ```
 
