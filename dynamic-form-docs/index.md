@@ -577,11 +577,11 @@ The plugin configuration requires that two secure parameters are defined:
 * __outputProperty__ tells the plugin which activity property to write the form results JSON to
 * __WIPProperty__ tells the plugin which activity property to write the value for a work-in-progress (not complete) form to
 
-e.g.
 ![ofscSecureParams](ofscSecureParams.png)
 **_OFSC Plugin Secure Parameters_**
 
 The plugin must also be configured such that activityId (aid), the inputProperty and outputProperty properties are passed to the plugin at runtime:
+
 ![ofscAvailableProps](ofscAvailableProps.png)
 **_OFSC Plugin Available Properties_**
 
