@@ -3,7 +3,6 @@
 ## Purpose of this guide
 This document describes the how to use the Dynamic Form plugin and includes the specifications for the input and output JSON documents.
 
-
 ## Table of Contents
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
@@ -216,6 +215,9 @@ The JSON for a Text input field looks like this:
 The Switch input field is used to capture a value where there only two options available, one of which is specified by default.  The following two images show a switch in both states:
 
 ![SwitchField](switch1.png)
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
 ![SwitchField](switch2.png)
 
 #### Configuration
@@ -316,7 +318,9 @@ The value that is returned in the output JSON
 The Single Select input field is used to capture a single value where there are multiple options available, presented as a dropdown list.
 
 ![SingleSelect](singleselect.png)
+
 ![SingleSelectOptions](singleselect2.png)
+
 ![SingleSelectComplete](singleselect3.png)
 
 #### Configuration
@@ -364,6 +368,7 @@ The value that is returned in the output JSON
 The Multi Select input field is used to capture multiple values where there are multiple options available, presented as a checkboxes.
 
 ![MultiSelect](multiselect.png)
+
 ![MutliSelectComplete](multiselect2.png)
 
 #### Configuration
@@ -410,15 +415,19 @@ The value that is returned in the output JSON
 The Datetime input field is used to capture a Date and Time using date and time pickers.  The current date is highlighted in the date picker.
 
 ![DateTime](datetime.png)
+
 **_Before selection_**
 
 ![DateTime2](datetime2.png)
+
 **_Selecting a date_**
 
 ![DateTime3](datetime3.png)
+
 **_Selecting a time_**
 
 ![DateTime4](datetime4.png)
+
 **_Completed field_**
 
 
@@ -452,12 +461,15 @@ The placeholder text to display within the time field prior to the user entering
 The Date input field is used to capture a Date using a date pickers.  The current date is highlighted in the date picker.
 
 ![Date](date.png)
+
 **_Before selection_**
 
 ![Date2](date2.png)
+
 **_Selecting a date_**
 
 ![Date3](date3.png)
+
 **_Completed field_**
 
 
@@ -495,6 +507,7 @@ Within each section the fields property holds an array of objects that each repr
 For example the following output JSON corresponds to the form shown below:
 
 ![Response](response1.png)
+
 **_User entered data_**
 
 
@@ -578,11 +591,13 @@ The plugin configuration requires that two secure parameters are defined:
 * __WIPProperty__ tells the plugin which activity property to write the value for a work-in-progress (not complete) form to
 
 ![ofscSecureParams](ofscSecureParams.png)
+
 **_OFSC Plugin Secure Parameters_**
 
 The plugin must also be configured such that activityId (aid), the inputProperty and outputProperty properties are passed to the plugin at runtime:
 
 ![ofscAvailableProps](ofscAvailableProps.png)
+
 **_OFSC Plugin Available Properties_**
 
 The plugin is then placed on a form using the standard OFSC screen designer configuration.
